@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\LinkDev.IKEA.PL.props" />
+</Project>

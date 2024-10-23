@@ -1,0 +1,119 @@
+﻿@model EmployeeDetailsDTO
+
+
+@{
+	ViewBag.Title = "Details";
+}
+
+<h1> Department Details</h1>
+
+<br />
+<br />
+
+<div class="row justify-content-start align-items-start">
+    <div>
+        <img src="~/files/Image/@Model.Image" class="img-fluid rounded-2" alt="Employee Image" style="height: 200px; width: 200px" />
+    </div>
+</div>
+
+
+<ul class="nav nav-tabs " id="departmentTabs" role="tablist">
+    <li class="nav nav-tabs" role="presentation">
+        <a class="nav nav-link active " id="general-tab" data-bs-toggle="tab" href="#general" role="tab" aria-selected="true"> General </a>
+    </li>
+    <li class=" nav-item" role="presentation">
+        <a class=" nav-link  " id="adminstration-tab" data-bs-toggle="tab" href="#adminstration" role="tab" aria-selected="false"> Adminstration </a>
+    </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active p-4 border" id="general" role="tabpanel" aria-labelledby="general-tab">
+        <div class="row">
+
+            <div class="from-group col-6">
+                <label class="col-form-label" asp-for="Name" ></label>
+                <input asp-for="Name" class="form-control mb-3" readonly />
+            </div>
+
+            <div class="from-group col-6">
+                <label class="col-form-label" asp-for="Email"></label>
+                <input asp-for="Email" class="form-control mb-3" readonly />
+            </div>
+
+            <div class="from-group col-12">
+                <label class="col-form-label" asp-for="Department"></label>
+                <input asp-for="Department" class="form-control mb-3" readonly />
+            </div>
+
+            <div class="from-group col-12">
+                <label class="col-form-label" asp-for="Address"></label>
+                <input asp-for="Address" class="form-control mb-3" readonly />
+            </div>
+
+            <div class="from-group col-12">
+                <label class="col-form-label" asp-for="Age"></label>
+                <input asp-for="Age" class="form-control mb-3" readonly />
+            </div>
+
+            <div class="from-group col-12">
+                <label class="col-form-label" asp-for="Salary"></label>
+                <input asp-for="Salary" class="form-control mb-3" readonly />
+            </div>
+
+            <div class="from-group col-12">
+                <label class="col-form-label" asp-for="PhoneNumber"></label>
+                <input asp-for="PhoneNumber" class="form-control mb-3" readonly />
+            </div>
+
+          <div class="form-group my-3 col-6">
+                <label class="control-label" asp-for="Gender" ></label><br />
+                    @foreach (Gender genderOption in Enum.GetValues(typeof(Gender)))
+                    {
+                        <label class="radio-inline">
+                            <input type="radio" asp-for="Gender" value="@genderOption" disabled/>
+                            @genderOption
+                        </label>
+                    }
+          </div>
+
+
+          <div class="form-group my-3 col-6">
+              <label asp-for="EmployeeType" class="control-label"></label>
+              <select asp-for="EmployeeType" asp-items="Html.GetEnumSelectList<EmpType>()" class="form-control" disabled>
+              <option value="">Select Employee Type</option>
+              </select>
+          </div>
+
+
+
+          <div class="form-check col-6">
+              <input asp-for="IsActive" class="form-check-input mb-3" disabled/>
+              <label class="form-check-label" asp-for="IsActive"></label>
+          </div>
+
+          <div class="form-group col-12 mt-3">
+              <label class="form-label" asp-for="HiringDate"></label>
+              <input asp-for="HiringDate" type="date" class="form-control mb-3" disabled/>
+              <span asp-validation-for="HiringDate" class="text-danger"></span>
+          </div>
+
+        </div>
+    </div>
+    <div class="tab-pane fade p-4  border" id="adminstration" role="tabpanel" aria-labelledby="adminstration-tab">
+        
+         <div class="from-group col-6">
+            <label class="col-form-label" asp-for="CreatedBy"></label>
+            <input asp-for="CreatedBy" class="form-control mb-3" readonly />
+        </div>
+        <div class="from-group col-6">
+            <label class="col-form-label" asp-for="LastModifiedBy"></label>
+            <input asp-for="LastModifiedBy" class="form-control mb-3" readonly />
+        </div>
+        <div class="from-group col-6">
+            <label class="col-form-label" asp-for="LastModifiedOn"></label>
+            <input asp-for="LastModifiedOn" class="form-control mb-3" readonly />
+        </div>
+    </div>
+    <div class="mt-4">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-success" > Edite </a>
+        <a asp-action="Index"  class="btn btn-secondary"> Back To List </a>
+    </div>

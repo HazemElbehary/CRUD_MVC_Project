@@ -1,0 +1,13 @@
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.DAL\bin\Debug\net8.0\LinkDev.IKEA.DAL.deps.json
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.DAL\bin\Debug\net8.0\LinkDev.IKEA.DAL.dll
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.DAL\bin\Debug\net8.0\LinkDev.IKEA.DAL.pdb
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.DAL\obj\Debug\net8.0\LinkDev.IKEA.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.DAL\obj\Debug\net8.0\LinkDev.IKEA.DAL.AssemblyInfoInputs.cache
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.DAL\obj\Debug\net8.0\LinkDev.IKEA.DAL.AssemblyInfo.cs
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.DAL\obj\Debug\net8.0\LinkDev.IKEA.DAL.csproj.CoreCompileInputs.cache
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.DAL\obj\Debug\net8.0\LinkDev.IKEA.DAL.sourcelink.json
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.DAL\obj\Debug\net8.0\LinkDev.IKEA.DAL.dll
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.DAL\obj\Debug\net8.0\refint\LinkDev.IKEA.DAL.dll
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.DAL\obj\Debug\net8.0\LinkDev.IKEA.DAL.pdb
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.DAL\obj\Debug\net8.0\ref\LinkDev.IKEA.DAL.dll
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.DAL\obj\Debug\net8.0\LinkDev.IKEA.DAL.csproj.AssemblyReference.cache

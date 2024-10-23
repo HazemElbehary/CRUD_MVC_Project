@@ -1,0 +1,16 @@
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\bin\Debug\net8.0\LinkDev.IKEA.BLL.deps.json
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\bin\Debug\net8.0\LinkDev.IKEA.BLL.dll
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\bin\Debug\net8.0\LinkDev.IKEA.BLL.pdb
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\bin\Debug\net8.0\LinkDev.IKEA.DAL.dll
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\bin\Debug\net8.0\LinkDev.IKEA.DAL.pdb
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\obj\Debug\net8.0\LinkDev.IKEA.BLL.csproj.AssemblyReference.cache
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\obj\Debug\net8.0\LinkDev.IKEA.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\obj\Debug\net8.0\LinkDev.IKEA.BLL.AssemblyInfoInputs.cache
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\obj\Debug\net8.0\LinkDev.IKEA.BLL.AssemblyInfo.cs
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\obj\Debug\net8.0\LinkDev.IKEA.BLL.csproj.CoreCompileInputs.cache
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\obj\Debug\net8.0\LinkDev.IKEA.BLL.sourcelink.json
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\obj\Debug\net8.0\LinkDev..3D3CF77F.Up2Date
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\obj\Debug\net8.0\LinkDev.IKEA.BLL.dll
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\obj\Debug\net8.0\refint\LinkDev.IKEA.BLL.dll
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\obj\Debug\net8.0\LinkDev.IKEA.BLL.pdb
+D:\Route\MVC\Updated IKEA Project\IKEA\LinkDev.IKEA.BLL\obj\Debug\net8.0\ref\LinkDev.IKEA.BLL.dll

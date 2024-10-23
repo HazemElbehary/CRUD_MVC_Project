@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Route\\MVC\\Updated IKEA Project\\IKEA\\LinkDev.IKEA.BLL\\LinkDev.IKEA.BLL.csproj": {}
+  },
+  "projects": {
+    "D:\\Route\\MVC\\Updated IKEA Project\\IKEA\\LinkDev.IKEA.BLL\\LinkDev.IKEA.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Route\\MVC\\Updated IKEA Project\\IKEA\\LinkDev.IKEA.BLL\\LinkDev.IKEA.BLL.csproj",
+        "projectName": "LinkDev.IKEA.BLL",
+        "projectPath": "D:\\Route\\MVC\\Updated IKEA Project\\IKEA\\LinkDev.IKEA.BLL\\LinkDev.IKEA.BLL.csproj",
+        "packagesPath": "C:\\Users\\Hazem Elbehary\\.nuget\\packages\\",
+        "outputPath": "D:\\Route\\MVC\\Updated IKEA Project\\IKEA\\LinkDev.IKEA.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hazem Elbehary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Route\\MVC\\Updated IKEA Project\\IKEA\\LinkDev.IKEA.DAL\\LinkDev.IKEA.DAL.csproj": {
+                "projectPath": "D:\\Route\\MVC\\Updated IKEA Project\\IKEA\\LinkDev.IKEA.DAL\\LinkDev.IKEA.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Route\\MVC\\Updated IKEA Project\\IKEA\\LinkDev.IKEA.DAL\\LinkDev.IKEA.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Route\\MVC\\Updated IKEA Project\\IKEA\\LinkDev.IKEA.DAL\\LinkDev.IKEA.DAL.csproj",
+        "projectName": "LinkDev.IKEA.DAL",
+        "projectPath": "D:\\Route\\MVC\\Updated IKEA Project\\IKEA\\LinkDev.IKEA.DAL\\LinkDev.IKEA.DAL.csproj",
+        "packagesPath": "C:\\Users\\Hazem Elbehary\\.nuget\\packages\\",
+        "outputPath": "D:\\Route\\MVC\\Updated IKEA Project\\IKEA\\LinkDev.IKEA.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hazem Elbehary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
